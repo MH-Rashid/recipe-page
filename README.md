@@ -68,7 +68,7 @@ ol li::marker {
 
 ### Useful resources
 
-- [W3 schools docs on HTML and CSS](https://www.w3schools.com/) - This helped me to explore the functionality and uses for unfamiliar HTML tags and CSS properties/values. It was very useful and will use it going forward.
+- [W3 schools docs on HTML and CSS](https://www.w3schools.com/) - This helped me to explore the functionality and uses for unfamiliar HTML tags and CSS properties/values. Will definitely use it going forward.
 
 ## Author
 
