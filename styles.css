@@ -41,6 +41,25 @@ img {
   max-width: 100%;
 }
 
+@media (min-width: 680px) {
+  .page {
+    width: 680px;
+    margin: 0 auto;
+    margin: 5rem auto;
+    border-radius: 14px;
+  }
+
+  .image-container {
+    padding: 1.5rem 1rem 0;
+    width: 90%;
+    margin: auto;
+  }
+
+  img {
+    border-radius: 14px;
+  }
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -148,28 +167,4 @@ table tr:last-child td {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media (min-width: 376px) {
-  .page {
-    width: 680px;
-    margin: 0 auto;
-  }
-
-  .image-container {
-    padding: 1.5rem 1rem 0;
-    width: 90%;
-    margin: auto;
-  }
-
-  img {
-    border-radius: 14px;
-  }
-}
-
-@media (min-width: 745px) {
-  .page {
-    margin: 5rem auto;
-    border-radius: 14px;
-  }
 }
