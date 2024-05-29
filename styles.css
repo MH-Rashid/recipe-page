@@ -68,10 +68,11 @@ strong {
   color: var(--wenge-brown);
 }
 
-p {
+p:not(td p) {
   margin-bottom: 2rem;
   font-size: 16px;
 }
+/* excludes p elements inside td */
 
 ol,
 ul {
@@ -126,9 +127,14 @@ table .value {
 }
 
 td {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   border-bottom: 1.5px solid var(--light-grey);
   padding: 1rem;
-  padding-left: 2rem;
+}
+
+td p {
+  display: inline-block;
 }
 
 table tr:last-child td {
